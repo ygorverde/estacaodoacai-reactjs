@@ -1,0 +1,7 @@
+.spinner-border{
+    left:50%;
+    top:50%;
+    position: relative;
+    margin-left:-40px; /* -1/2 width */
+    margin-top:-40px; /* -1/2 height */
+  }

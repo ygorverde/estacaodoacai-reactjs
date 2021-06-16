@@ -1,0 +1,608 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "clientName": "Ygor",
+      "phone": "71993306623",
+      "address": "Rua Professor Souza Carneiro",
+      "id_neighborhood": 1,
+      "qtdpedidos": 0
+    },
+    {
+      "id": 2,
+      "clientName": "Diego",
+      "phone": "71993565221",
+      "address": "Rua Professor Souza Carneiro, 98",
+      "id_neighborhood": 1,
+      "qtdpedidos": 0
+    }
+  ],
+  "neighborhoods": [
+    {
+      "id": 1,
+      "name": "Pernambués",
+      "price": "4"
+    },
+    {
+      "id": 2,
+      "name": "Resgate",
+      "price": "7"
+    },
+    {
+      "id": 3,
+      "name": "Stiep",
+      "price": "8"
+    },
+    {
+      "id": 4,
+      "name": "São Marcos",
+      "price": "5"
+    },
+    {
+      "id": 5,
+      "name": "Brotas",
+      "price": "8.00"
+    }
+  ],
+  "products": [
+    {
+      "productName": "Tropical",
+      "description": "Banana, Morango e Kiwi",
+      "price": "20.00",
+      "size": "500",
+      "id": 1,
+      "flavor": "Ambos"
+    },
+    {
+      "productName": "Clássico",
+      "description": "Nutella, Leite Condensado e KitKat",
+      "price": "20.00",
+      "size": "500",
+      "id": 2,
+      "flavor": "Ambos"
+    },
+    {
+      "productName": "Premium",
+      "description": "Morango, Kiwi, Oreo, Nutella, Gotas e Leite em pó",
+      "price": "24.00",
+      "size": "500",
+      "id": 3,
+      "flavor": "Ambos"
+    }
+  ],
+  "simpleadditionals": [
+    {
+      "additionalname": "Banana",
+      "price": 2,
+      "id": 1
+    },
+    {
+      "additionalname": "Gotas",
+      "price": 2,
+      "id": 2
+    },
+    {
+      "additionalname": "Jujuba",
+      "price": 2,
+      "id": 3
+    },
+    {
+      "additionalname": "Aveia",
+      "price": 2,
+      "id": 4
+    },
+    {
+      "additionalname": "C. Chocolate",
+      "price": 2,
+      "id": 5
+    },
+    {
+      "additionalname": "L. em pó",
+      "price": 2,
+      "id": 6
+    },
+    {
+      "additionalname": "L. cond",
+      "price": 2,
+      "id": 7
+    },
+    {
+      "additionalname": "Mel",
+      "price": 2,
+      "id": 8
+    },
+    {
+      "additionalname": "C. Morango",
+      "price": 2,
+      "id": 9
+    },
+    {
+      "additionalname": "C. Caramelo",
+      "price": 2,
+      "id": 10
+    },
+    {
+      "additionalname": "Cereais Croc",
+      "price": 2,
+      "id": 11
+    },
+    {
+      "additionalname": "Granulado",
+      "price": 2,
+      "id": 12
+    }
+  ],
+  "specialadditionals": [
+    {
+      "additionalname": "Bis",
+      "price": 3,
+      "id": 1
+    },
+    {
+      "additionalname": "Oreo",
+      "price": 3,
+      "id": 2
+    },
+    {
+      "additionalname": "Disqueti",
+      "price": 3,
+      "id": 3
+    },
+    {
+      "additionalname": "Granola",
+      "price": 3,
+      "id": 4
+    },
+    {
+      "additionalname": "Granola Zero",
+      "price": 3,
+      "id": 5
+    },
+    {
+      "additionalname": "Kit Kat",
+      "price": 3,
+      "id": 6
+    },
+    {
+      "additionalname": "Kiwi",
+      "price": 3,
+      "id": 7
+    },
+    {
+      "additionalname": "Morango",
+      "price": 3,
+      "id": 8
+    },
+    {
+      "additionalname": "Nutella",
+      "price": 3,
+      "id": 9
+    },
+    {
+      "additionalname": "Ovomaltine",
+      "price": 3,
+      "id": 10
+    },
+    {
+      "additionalname": "Paçoca",
+      "price": 3,
+      "id": 11
+    },
+    {
+      "additionalname": "S. Valsa",
+      "price": 3,
+      "id": 12
+    },
+    {
+      "additionalname": "Tapioca Crocs",
+      "price": 3,
+      "id": 13
+    },
+    {
+      "additionalname": "Doce de Leite",
+      "price": 3,
+      "id": 14
+    },
+    {
+      "additionalname": "Brigadeiro",
+      "price": 3,
+      "id": 15
+    },
+    {
+      "additionalname": "Fini",
+      "price": 3,
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "48.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Aveia "
+            },
+            {
+              "adicional": "C. Chocolate "
+            }
+          ],
+          "total": "22.00",
+          "description": ""
+        },
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "C. Morango R$2.00"
+            }
+          ],
+          "total": "22.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "4.00"
+      },
+      "acais": [],
+      "id": 3
+    },
+    {
+      "client": {
+        "name": "Paulete",
+        "phone": "7199665535",
+        "address": "SEM RESIDENCIA",
+        "neighborhood": {
+          "name": "Pernambués",
+          "price": "4",
+          "id_neighborhood": 1
+        },
+        "shipping": "4",
+        "total": "24.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Jujuba "
+            },
+            {
+              "adicional": "L. em pó "
+            },
+            {
+              "adicional": "Mel R$2.00"
+            },
+            {
+              "adicional": "Cereais Croc R$2.00"
+            }
+          ],
+          "total": "20.00",
+          "description": ""
+        }
+      ],
+      "id": 4
+    },
+    {
+      "client": {
+        "name": "Sergio",
+        "phone": "719654656",
+        "address": "Rua do resgate, 115415",
+        "neighborhood": {
+          "name": "Resgate",
+          "price": "7",
+          "id_neighborhood": 2
+        },
+        "shipping": "7",
+        "total": "23.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Jujuba "
+            },
+            {
+              "adicional": "Aveia "
+            }
+          ],
+          "total": "16.00",
+          "description": ""
+        }
+      ],
+      "id": 5,
+      "data": "25/05/2021"
+    },
+    {
+      "client": {
+        "name": "Diego",
+        "phone": "71993565221",
+        "address": "Rua Thomaz Gonzaga, apto 1004, B-5",
+        "neighborhood": {
+          "name": "Resgate",
+          "price": "7",
+          "id_neighborhood": 2
+        },
+        "shipping": "7",
+        "total": "49.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Aveia "
+            },
+            {
+              "adicional": "L. em pó "
+            },
+            {
+              "adicional": "C. Caramelo R$2.00"
+            },
+            {
+              "adicional": "Granulado R$2.00"
+            }
+          ],
+          "total": "20.00",
+          "description": ""
+        },
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "L. em pó R$2.00"
+            }
+          ],
+          "total": "22.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "data": "27/05/2021",
+      "id": 6
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "46.00"
+      },
+      "acais": [
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [],
+          "total": "20.00",
+          "description": "Banana, Morango e Kiwi"
+        },
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Gotas "
+            },
+            {
+              "adicional": "Cereais Croc "
+            },
+            {
+              "adicional": "Mel R$2.00"
+            },
+            {
+              "adicional": "Aveia R$2.00"
+            },
+            {
+              "adicional": "Jujuba R$2.00"
+            }
+          ],
+          "total": "22.00",
+          "description": ""
+        }
+      ],
+      "data": "27/05/2021",
+      "id": 7
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "24.00"
+      },
+      "acais": [
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [],
+          "total": "20.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "data": "27/05/2021",
+      "id": 8
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "24.00"
+      },
+      "acais": [
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [],
+          "total": "20.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "data": "27/05/2021",
+      "id": 9
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "24.00"
+      },
+      "acais": [
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [],
+          "total": "20.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "data": "07/06/2021",
+      "id": 10
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "23.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Banana "
+            }
+          ],
+          "total": "19.00",
+          "description": ""
+        }
+      ],
+      "data": "13/06/2021",
+      "id": 11
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 1,
+          "name": "Pernambués",
+          "price": "4"
+        },
+        "shipping": "4",
+        "total": "28.00"
+      },
+      "acais": [
+        {
+          "acai": "Tropical",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Aveia R$2.00"
+            },
+            {
+              "adicional": "C. Chocolate R$2.00"
+            }
+          ],
+          "total": "24.00",
+          "description": "Banana, Morango e Kiwi"
+        }
+      ],
+      "data": "13/06/2021",
+      "id": 12
+    },
+    {
+      "client": {
+        "name": "Ygor",
+        "phone": "71993306623",
+        "address": "Rua Professor Souza Carneiro",
+        "neighborhood": {
+          "id_neighborhood": 2,
+          "name": "Resgate",
+          "price": "7"
+        },
+        "shipping": "7",
+        "total": "29.00"
+      },
+      "acais": [
+        {
+          "acai": "Açaí Morango",
+          "size": "500",
+          "adicionais": [
+            {
+              "adicional": "Banana "
+            }
+          ],
+          "total": "22.00",
+          "description": ""
+        }
+      ],
+      "data": "16/06/2021",
+      "id": 13
+    }
+  ]
+}
